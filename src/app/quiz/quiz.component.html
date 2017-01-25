@@ -1,0 +1,82 @@
+<div class="header">
+  <div class="row">
+    <div class="col-md-8">
+      <h3>Quiz Application</h3>
+    </div>
+    <div class="col-md-4 header-right">
+      Select Quiz:
+      <select [(ngModel)]="quizName" (change)="loadQuiz(quizName)">
+        <option *ngFor="let quiz of quizes" [value]="quiz.id">{{quiz.name}}</option>
+      </select>
+    </div>
+  </div>
+</div>
+<div id="quiz">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="center">{{quiz.name}}</h1>
+      <hr />
+    </div>
+  </div>
+
+  <div *ngIf="mode=='quiz'">
+    <div *ngFor="let question of filteredQuestions;">
+      <div class="label label-warning">Question {{pager.index + 1}} of {{pager.count}}.</div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>{{pager.index + 1}}. <span [innerHTML]="question.Name"></span></h2>
+        </div>
+      </div>
+      <div class="row text-left options">
+        <div class="col-md-6" *ngFor="let option of question.Options">
+          <div class="option">
+            <label class="" [attr.for]="option.Id">
+                <input id="{{option.Id}}" type="checkbox" [(ngModel)]="option.Selected" (change)="onSelect(question, option);" />
+                {{option.Name}}
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="quizNav">
+      <div>
+        <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(0);">First</button>
+        <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">Prev</button>
+        <button class="btn btn-primary" (click)="goTo(pager.index + 1);">Next</button>
+        <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(pager.count - 1);">Last</button>
+      </div>
+      <br />
+      <!--<pagination *ngIf="config.showPager" direction-links="false" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>-->
+    </div>
+  </div>
+
+  <div class="row review" *ngIf="mode=='review'">
+    <div class="col-sm-4" *ngFor="let question of quiz.questions; let index = index;">
+      <div (click)="goTo(index)" class="{{ isAnswered(index) == 'Answered'? 'answered': 'not-answered' }}">{{index + 1}}. {{ isAnswered(index) }}</div>
+    </div>
+  </div>
+  <div class="result" *ngIf="mode=='result'">
+    <h2>Quiz Result</h2>
+    <div *ngFor="let question of quiz.questions; let index = index">
+      <div class="result-question">
+        <h4>{{index + 1}}. {{question.Name}}</h4>
+        <div class="row">
+          <div class="col-md-6" *ngFor="let Option of question.Options">
+            <div>
+              <input id="{{Option.Id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.Selected" /> {{Option.Name}}
+            </div>
+          </div>
+        </div>
+        <h4 class="alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</h4>
+      </div>
+    </div>
+    <h4 class="alert alert-info text-center">You may close this window now.</h4>
+  </div>
+  <hr />
+  <div class="" *ngIf="mode!='result'">
+    <button class="btn btn-default" (click)="mode = 'quiz'">Quiz</button>
+    <button class="btn btn-default" (click)="mode = 'review'">Review</button>
+    <button class="btn btn-default" (click)="onSubmit();">Submit Quiz</button>
+  </div>
+</div>

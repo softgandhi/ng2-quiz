@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin:auto;
+}
+
+*{
+    border-radius:0px !important;
+}
+
+h1{
+    color:#740808;
+    font-weight:normal;
+}
+h2{
+    font-weight:normal;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #ccc;
+    background:none;
+    margin-bottom:2px;
+}
+.header-right{
+    padding-top:12px;
+    text-align:right;
+}
+
+.center{
+    text-align:center;
+}
+.right{
+    text-align:right;
+}
+
+.question{
+    background-color:#eee;
+    color:#151569;
+    min-height:300px;
+    text-align:center;
+}
+.option{
+    background-color:#cadaee;
+    font-size:20px;
+    padding:10px;
+    margin:3px;
+}
+.option label{
+    font-weight:normal;
+}
+    #quiz .options input[type=checkbox] {
+        background-color:#eee;
+        border:1px solid #ccc;
+        height:22px;
+        width:22px;
+    }
+
+    .quizNav {
+        margin:auto;
+        text-align:center;
+    }
+    .quizNav ul{
+        margin:0;
+    }
+
+
+    .quizNav ul li{
+        display:inline-block;
+        list-style-type:none;
+    }
+    
+div.review{
+    text-align:center;
+}
+div.review > div {
+    cursor:pointer;
+}
+
+.answered {
+    background-color:#ccffcc;
+    border:1px solid #aaeeaa;
+    margin:2px 0;
+    padding:12px;
+}
+
+.not-answered {
+    background-color:#ffcccc;
+    border:1px solid #eeaaaa;
+    margin:2px 0;
+    padding:12px;
+}
+
+.result-question{
+    background-color:#eee;
+    margin:4px;
+    padding:6px;
+}
+
+    
+/* Create Quiz Styles */
+.create-quiz .question {
+    text-align:left;
+}
+.create-quiz input[type=text]{
+    border:1px solid #ddd;
+    width:95%;
+}
+.create-quiz .tb-quiz-name{
+    background-color:#ccffcc;
+    text-align:center;
+}
+
+.create-quiz .tb-desc{
+    background-color:#fff;
+}
+
+.create-quiz .options > div{
+    margin-left:20px;
+}
+.create-quiz .options input[type=checkbox]{
+    border: 1px solid #262626;
+    display: inline-block;
+    height:20px;
+    margin-top:10px;
+    margin-bottom:0;
+    padding:0;
+    width:20px;
+    -webkit-appearance:checkbox;    
+}
+
+
+@media only screen and (max-width: 480px) {
+    h1,.h1{
+        font-size:22px;
+    }
+    h2,.h2{
+        font-size:20px;
+    }
+    h3,.h3{
+        font-size:18px;
+    }
+    .option {
+        font-size: 16px;
+        padding: 6px;
+    }
+}
