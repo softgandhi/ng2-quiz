@@ -82,11 +82,8 @@ export class QuizComponent implements OnInit {
 
   onSubmit() {
     var answers = [];
-    // let quizId = this.quiz.Id;
     this.quiz.questions.forEach(x => answers.push({ 'QuizId': this.quiz.Id, 'QuestionId': x.Id, 'Answered': x.Answered }));
-    // this.quiz.questions.forEach(function (q, index) {
-    //   answers.push({ 'QuizId': quizId, 'QuestionId': q.Id, 'Answered': q.Answered });
-    // });
+    
     // Post your data to the server here. answers contains the questionId and the users' answer.
     console.log(this.quiz.questions);
     this.mode = 'result';
