@@ -1,12 +1,3 @@
-body {
-    font-family: 'Segoe UI', sans-serif;
-    margin:auto;
-}
-
-*{
-    border-radius:0px !important;
-}
-
 h1{
     color:#740808;
     font-weight:normal;
@@ -17,28 +8,11 @@ h2{
 
 hr{
     border:none;
-    border-top:1px solid #ccc;
+    border-top:1px solid #ddd;
     background:none;
-    margin-bottom:2px;
-}
-.header-right{
-    padding-top:12px;
-    text-align:right;
+    margin:8px 0;
 }
 
-.center{
-    text-align:center;
-}
-.right{
-    text-align:right;
-}
-
-.question{
-    background-color:#eee;
-    color:#151569;
-    min-height:300px;
-    text-align:center;
-}
 .option{
     background-color:#cadaee;
     font-size:20px;
@@ -53,20 +27,6 @@ hr{
         border:1px solid #ccc;
         height:22px;
         width:22px;
-    }
-
-    .quizNav {
-        margin:auto;
-        text-align:center;
-    }
-    .quizNav ul{
-        margin:0;
-    }
-
-
-    .quizNav ul li{
-        display:inline-block;
-        list-style-type:none;
     }
     
 div.review{
@@ -127,7 +87,6 @@ div.review > div {
     width:20px;
     -webkit-appearance:checkbox;    
 }
-
 
 @media only screen and (max-width: 480px) {
     h1,.h1{
