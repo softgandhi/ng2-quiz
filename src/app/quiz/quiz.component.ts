@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { QuizService } from '../services/quiz.service';
 import { HelperService } from '../services/helper.service';
+import { Option, Question, Quiz, QuizConfig } from '../models/index';
 
 @Component({
   selector: 'app-quiz',
@@ -11,14 +12,14 @@ import { HelperService } from '../services/helper.service';
 })
 export class QuizComponent implements OnInit {
   quizes: any[];
-  quiz: any = {};
+  quiz: Quiz = new Quiz(null);
   mode: string = 'quiz';
   quizName: string;
-  config: any = {
+  config: QuizConfig = {
     'allowBack': true,
     'allowReview': true,
     'autoMove': false,  // if true, it will move to next question automatically when answered.
-    'duration': 0,  // indicates the time in which quiz needs to be completed. post that, quiz will be automatically submitted. 0 means unlimited.
+    'duration': 0,  // indicates the time in which quiz needs to be completed. 0 means unlimited.
     'pageSize': 1,
     'requiredAll': false,  // indicates if you must answer all the questions before submitting.
     'richText': false,
@@ -33,7 +34,7 @@ export class QuizComponent implements OnInit {
     index: 0,
     size: 1,
     count: 1
-  }
+  };
 
   constructor(private quizService: QuizService) { }
 
@@ -45,7 +46,7 @@ export class QuizComponent implements OnInit {
 
   loadQuiz(quizName: string) {
     this.quizService.get(quizName).subscribe(res => {
-      this.quiz = res;
+      this.quiz = new Quiz(res);
       this.pager.count = this.quiz.questions.length;
     });
   }
@@ -55,9 +56,9 @@ export class QuizComponent implements OnInit {
       this.quiz.questions.slice(this.pager.index, this.pager.index + this.pager.size) : [];
   }
 
-  onSelect(question: any, option: any) {
-    if (question.QuestionTypeId == 1) {
-      question.Options.forEach((x) => { if (x.Id != option.Id) x.Selected = false; });
+  onSelect(question: Question, option: Option) {
+    if (question.questionTypeId === 1) {
+      question.options.forEach((x) => { if (x.id !== option.id) x.selected = false; });
     }
 
     if (this.config.autoMove) {
@@ -73,17 +74,17 @@ export class QuizComponent implements OnInit {
   }
 
   isAnswered(index) {
-    return this.quiz.questions[index].Options.find(x => x.Selected) ? 'Answered' : 'Not Answered';
+    return this.quiz.questions[index].options.find(x => x.selected) ? 'Answered' : 'Not Answered';
   };
 
-  isCorrect(question) {
-    return question.Options.every(x => x.Selected == x.IsAnswer) ? 'correct' : 'wrong';
+  isCorrect(question: Question) {
+    return question.options.every(x => x.selected === x.isAnswer) ? 'correct' : 'wrong';
   };
 
   onSubmit() {
-    var answers = [];
-    this.quiz.questions.forEach(x => answers.push({ 'QuizId': this.quiz.Id, 'QuestionId': x.Id, 'Answered': x.Answered }));
-    
+    let answers = [];
+    this.quiz.questions.forEach(x => answers.push({ 'QuizId': this.quiz.id, 'QuestionId': x.id, 'Answered': x.answered }));
+
     // Post your data to the server here. answers contains the questionId and the users' answer.
     console.log(this.quiz.questions);
     this.mode = 'result';

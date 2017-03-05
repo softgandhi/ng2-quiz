@@ -1,5 +1,5 @@
 {
-    "Id": 2,
+    "id": 2,
     "name": "C# and .Net Framework",
     "description": "C# and .Net Quiz (contains C#, .Net Framework, Linq, etc.)",
     "config": {
@@ -10,369 +10,369 @@
     },
     "questions": [
         {
-            "Id": 1010,
-            "Name": "Which of the following assemblies can be stored in Global Assembly Cache?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1010,
+            "name": "Which of the following assemblies can be stored in Global Assembly Cache?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Private Assemblies",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Private Assemblies",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Friend Assemblies",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Friend Assemblies",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Public Assemblies",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Public Assemblies",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Shared Assemblies",
-                    "IsAnswer": true
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Shared Assemblies",
+                    "isAnswer": true
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1011,
-            "Name": "Which of the following .NET components can be used to remove unused references from the managed heap?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1011,
+            "name": "Which of the following .NET components can be used to remove unused references from the managed heap?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Language Infrastructure",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Language Infrastructure",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "CLR",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "CLR",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Garbage Collector",
-                    "IsAnswer": true
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Garbage Collector",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Class Loader",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Class Loader",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "CTS",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "CTS",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1012,
-            "Name": "Which of the following utilities can be used to compile managed assemblies into processor-specific native code?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1012,
+            "name": "Which of the following utilities can be used to compile managed assemblies into processor-specific native code?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "gacutil",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "gacutil",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "ngen",
-                    "IsAnswer": true
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "ngen",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "dumpbin",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "dumpbin",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "ildasm",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "ildasm",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1013,
-            "Name": "Which of the following is NOT an Arithmetic operator in C#.NET?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1013,
+            "name": "Which of the following is NOT an Arithmetic operator in C#.NET?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "** (Double Star)",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "** (Double Star)",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "+ (Plus)",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "+ (Plus)",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "/ (Divide)",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "/ (Divide)",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "% (Modulo)",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "% (Modulo)",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1014,
-            "Name": "Which of the following statements is correct about an interface used in C#.NET?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1014,
+            "name": "Which of the following statements is correct about an interface used in C#.NET?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "If a class implements an interface partially, then it should be an abstract class.",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "If a class implements an interface partially, then it should be an abstract class.",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "A class cannot implement an interface partially.",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "A class cannot implement an interface partially.",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "An interface can contain static methods.",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "An interface can contain static methods.",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "An interface can contain static data.",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "An interface can contain static data.",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1015,
-            "Name": "What does the term <strong>immutable</strong> means in term of string objects?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1015,
+            "name": "What does the term <strong>immutable</strong> means in term of string objects?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "We can modify characters included in the string",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "We can modify characters included in the string",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "We cannot modify characters contained in the string",
-                    "IsAnswer": true
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "We cannot modify characters contained in the string",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "We cannot perform various operation of comparison, inserting, appending etc",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "We cannot perform various operation of comparison, inserting, appending etc",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "None of the above",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1016,
-            "Name": "Which of the following is NOT a .NET Exception class?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1016,
+            "name": "Which of the following is NOT a .NET Exception class?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Exception",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Exception",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "StackMemoryException",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "StackMemoryException",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "DivideByZeroException",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "DivideByZeroException",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "InvalidOperationException",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "InvalidOperationException",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1017,
-            "Name": "In C#.NET if we do not catch the exception thrown at runtime then which of the following will catch it?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1017,
+            "name": "In C#.NET if we do not catch the exception thrown at runtime then which of the following will catch it?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Compiler",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Compiler",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "CLR",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "CLR",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Linker",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Linker",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Operating system",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Operating system",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1018,
-            "Name": "Which of the following statements are correct about delegates?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1018,
+            "name": "Which of the following statements are correct about delegates?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Delegates cannot be used to call a static method of a class.",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Delegates cannot be used to call a static method of a class.",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Delegates cannot be used to call procedures that receive variable number of arguments.",
-                    "IsAnswer": true
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Delegates cannot be used to call procedures that receive variable number of arguments.",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "If signatures of two methods are same they can be called through the same delegate object.",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "If signatures of two methods are same they can be called through the same delegate object.",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Delegates cannot be used to call an instance function. Delegates cannot be used to call an instance subroutine.",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Delegates cannot be used to call an instance function. Delegates cannot be used to call an instance subroutine.",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1019,
-            "Name": "Which of the following does NOT represent Integer?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1019,
+            "name": "Which of the following does NOT represent Integer?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Char",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Char",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Byte",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Byte",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Short",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Short",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Long",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Long",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         }
     ]

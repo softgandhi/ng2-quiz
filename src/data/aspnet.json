@@ -1,366 +1,366 @@
 {
-    "Id": 1,
+    "id": 1,
     "name": "Asp.Net Quiz",
     "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)",
     "questions": [
         {
-            "Id": 1010,
-            "Name": "ASP.NET webform separates the HTML output from program logic using a feature named as",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1010,
+            "name": "ASP.NET webform separates the HTML output from program logic using a feature named as",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Exception",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Exception",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Code-behind",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Code-behind",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Code-front",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Code-front",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "None of the above",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1011,
-            "Name": "The feature in ASP.NET 2.0 that is used to fire a normal postback to a different page in the application is called",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1011,
+            "name": "The feature in ASP.NET 2.0 that is used to fire a normal postback to a different page in the application is called",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Theme",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Theme",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Code-front",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Code-front",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Cross Page Posting",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Cross Page Posting",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "None of the above",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1012,
-            "Name": "What class does the ASP.NET Web Form class inherit from by default?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1012,
+            "name": "What class does the ASP.NET Web Form class inherit from by default?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "System.Web.UI.Page",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "System.Web.UI.Page",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "System.Web.UI.Form",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "System.Web.UI.Form",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "System.Web.GUI.Page",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "System.Web.GUI.Page",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "System.Web.Form",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "System.Web.Form",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1013,
-            "Name": "What does MVC stand for?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1013,
+            "name": "What does MVC stand for?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Model View Controller",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Model View Controller",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Maximum Virtual Control",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Maximum Virtual Control",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Microsoft Visual Core",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Microsoft Visual Core",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "None of the above",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1014,
-            "Name": "Which of the following does NOT require type casting?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1014,
+            "name": "Which of the following does NOT require type casting?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Session",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Session",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "TempData",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "TempData",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "ViewData",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "ViewData",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "ViewBag",
-                    "IsAnswer": true
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "ViewBag",
+                    "isAnswer": true
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1015,
-            "Name": "Which is the correct order of Page life-cycle in asp.net webform?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1015,
+            "name": "Which is the correct order of Page life-cycle in asp.net webform?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Init, PreRender, Load",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Init, PreRender, Load",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Load, PreRender, Init",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Load, PreRender, Init",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Init, Load, PreRender",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Init, Load, PreRender",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "None of the above",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1016,
-            "Name": "Which of these data source controls do not implement caching?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1016,
+            "name": "Which of these data source controls do not implement caching?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "ObjectDataSource",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "ObjectDataSource",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "LinqDataSource",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "LinqDataSource",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "SqlDataSource",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "SqlDataSource",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "XmlDataSource",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "XmlDataSource",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1017,
-            "Name": "Which tag asp:Label control by default renders to?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1017,
+            "name": "Which tag asp:Label control by default renders to?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "div",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "div",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "span",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "span",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "body",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "body",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "label",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "label",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1018,
-            "Name": "Which method do you use to explicitly kill a user's session?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1018,
+            "name": "Which method do you use to explicitly kill a user's session?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Session.Terminate()",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Session.Terminate()",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Session.TimeOut()",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Session.TimeOut()",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Session.Abondon()",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Session.Abondon()",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Session.Kill()",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Session.Kill()",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1019,
-            "Name": "Which of the following object is ideal for keeping data alive for a single request?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1019,
+            "name": "Which of the following object is ideal for keeping data alive for a single request?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "HttpContext",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "HttpContext",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Session",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Session",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Cookies",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Cookies",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "SqlServer",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "SqlServer",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         }
     ]

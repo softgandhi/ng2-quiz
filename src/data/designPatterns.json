@@ -1,366 +1,366 @@
 {
-    "Id": 3,
+    "id": 3,
     "name": "Design Patterns",
     "description": "Design Patterns Quiz including solid principles.",
     "questions": [
         {
-            "Id": 1010,
-            "Name": "In SOLID principle, O stands for:",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1010,
+            "name": "In SOLID principle, O stands for:",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Objects and Variables",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Objects and Variables",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Open-Closed Principle",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Open-Closed Principle",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Object Oriented Programming",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Object Oriented Programming",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "OutOfMemory Exception",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "OutOfMemory Exception",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1011,
-            "Name": "Which pattern defines an interface for creating an object, but let the subclasses decide which class to instantiate. It let the instantiation differ to subclasses.",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1011,
+            "name": "Which pattern defines an interface for creating an object, but let the subclasses decide which class to instantiate. It let the instantiation differ to subclasses.",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Factory Method",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Factory Method",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Abstract Factory",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Abstract Factory",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Builder",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Builder",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Prototype",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Prototype",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1012,
-            "Name": "Which pattern attach the additional responsibilities to an object dynamically.It provides a flexible alternative to subclassing for extending functionality.",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1012,
+            "name": "Which pattern attach the additional responsibilities to an object dynamically.It provides a flexible alternative to subclassing for extending functionality.",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Chain of responsibility",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Chain of responsibility",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Adapter",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Adapter",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Decorator",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Decorator",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Composite",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Composite",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1013,
-            "Name": "Singleton pattern is a (according to Gang of Four):",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1013,
+            "name": "Singleton pattern is a (according to Gang of Four):",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Creational Pattern",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Creational Pattern",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Behavioural Pattern",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Behavioural Pattern",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Structural Pattern",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Structural Pattern",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "None of the above",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1014,
-            "Name": "MVC, MVP and MVVP are related to which layer of software architecture?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1014,
+            "name": "MVC, MVP and MVVP are related to which layer of software architecture?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Data Access Layer",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Data Access Layer",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Business/Service Layer",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Business/Service Layer",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Third Party Library",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Third Party Library",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "User Interface",
-                    "IsAnswer": true
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "User Interface",
+                    "isAnswer": true
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1015,
-            "Name": "Which pattern defines a family of algorithms, encapsulate each one, and make them interchangeable. It lets the algorithm vary independently from clients that use it?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1015,
+            "name": "Which pattern defines a family of algorithms, encapsulate each one, and make them interchangeable. It lets the algorithm vary independently from clients that use it?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Template method",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Template method",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Decorator",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Decorator",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Strategy",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Strategy",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Visitor",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Visitor",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1016,
-            "Name": "Which pattern define one to many dependency between objects so that when one object change state, all its dependent are notified and updated automatically?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1016,
+            "name": "Which pattern define one to many dependency between objects so that when one object change state, all its dependent are notified and updated automatically?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Chain of responsibility",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Chain of responsibility",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Observer Pattern",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Observer Pattern",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Event Notification",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Event Notification",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Deligate Pattern",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Deligate Pattern",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1017,
-            "Name": "Which pattern ensures a class has only one instance, and provide a global access point to it?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1017,
+            "name": "Which pattern ensures a class has only one instance, and provide a global access point to it?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Single Class Factory",
-                    "IsAnswer": false
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Single Class Factory",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Singleton",
-                    "IsAnswer": true
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Singleton",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Proxy",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Proxy",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Flyweight",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Flyweight",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1018,
-            "Name": "Which pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation?",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1018,
+            "name": "Which pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation?",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Iterator",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Iterator",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Visitor",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Visitor",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Composite",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Composite",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "Command",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Command",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         },
         {
-            "Id": 1019,
-            "Name": "In SOLID principles 'S' stands for:",
-            "QuestionTypeId": 1,
-            "Options": [
+            "id": 1019,
+            "name": "In SOLID principles 'S' stands for:",
+            "questionTypeId": 1,
+            "options": [
                 {
-                    "Id": 1055,
-                    "QuestionId": 1010,
-                    "Name": "Single Responsibility",
-                    "IsAnswer": true
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Single Responsibility",
+                    "isAnswer": true
                 },
                 {
-                    "Id": 1056,
-                    "QuestionId": 1010,
-                    "Name": "Session",
-                    "IsAnswer": false
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Session",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1057,
-                    "QuestionId": 1010,
-                    "Name": "Strength",
-                    "IsAnswer": false
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Strength",
+                    "isAnswer": false
                 },
                 {
-                    "Id": 1058,
-                    "QuestionId": 1010,
-                    "Name": "SqlServer",
-                    "IsAnswer": false
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "SqlServer",
+                    "isAnswer": false
                 }
             ],
-            "QuestionType": {
-                "Id": 1,
-                "Name": "Multiple Choice",
-                "IsActive": true
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
             }
         }
     ]
