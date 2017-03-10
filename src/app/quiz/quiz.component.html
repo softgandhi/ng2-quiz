@@ -40,7 +40,7 @@
 
   <div class="row review" *ngIf="mode=='review'">
     <div class="col-sm-4" *ngFor="let question of quiz.questions; let index = index;">
-      <div (click)="goTo(index)" class="{{ isAnswered(index) == 'Answered'? 'answered': 'not-answered' }}">{{index + 1}}. {{ isAnswered(index) }}</div>
+      <div (click)="goTo(index)" class="{{ isAnswered(question) == 'Answered'? 'answered': 'not-answered' }}">{{index + 1}}. {{ isAnswered(question) }}</div>
     </div>
   </div>
   <div class="result" *ngIf="mode=='result'">

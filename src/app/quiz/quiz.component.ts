@@ -13,7 +13,7 @@ import { Option, Question, Quiz, QuizConfig } from '../models/index';
 export class QuizComponent implements OnInit {
   quizes: any[];
   quiz: Quiz = new Quiz(null);
-  mode: string = 'quiz';
+  mode = 'quiz';
   quizName: string;
   config: QuizConfig = {
     'allowBack': true,
@@ -49,6 +49,7 @@ export class QuizComponent implements OnInit {
       this.quiz = new Quiz(res);
       this.pager.count = this.quiz.questions.length;
     });
+    this.mode = 'quiz';
   }
 
   get filteredQuestions() {
@@ -73,8 +74,8 @@ export class QuizComponent implements OnInit {
     }
   }
 
-  isAnswered(index) {
-    return this.quiz.questions[index].options.find(x => x.selected) ? 'Answered' : 'Not Answered';
+  isAnswered(question: Question) {
+    return question.options.find(x => x.selected) ? 'Answered' : 'Not Answered';
   };
 
   isCorrect(question: Question) {
@@ -83,7 +84,7 @@ export class QuizComponent implements OnInit {
 
   onSubmit() {
     let answers = [];
-    this.quiz.questions.forEach(x => answers.push({ 'QuizId': this.quiz.id, 'QuestionId': x.id, 'Answered': x.answered }));
+    this.quiz.questions.forEach(x => answers.push({ 'quizId': this.quiz.id, 'questionId': x.id, 'answered': x.answered }));
 
     // Post your data to the server here. answers contains the questionId and the users' answer.
     console.log(this.quiz.questions);
