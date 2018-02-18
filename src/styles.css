@@ -1,16 +1,5 @@
-h1{
-    color:#740808;
-    font-weight:normal;
-}
-h2{
-    font-weight:normal;
-}
-
-hr{
-    border:none;
-    border-top:1px solid #ddd;
-    background:none;
-    margin:8px 0;
+.btn{
+    border-radius: 0;
 }
 
 .option{
@@ -19,35 +8,13 @@ hr{
     padding:10px;
     margin:3px;
 }
-.option label{
-    font-weight:normal;
-}
     #quiz .options input[type=checkbox] {
-        background-color:#eee;
-        border:1px solid #ccc;
         height:22px;
         width:22px;
     }
-    
-div.review{
-    text-align:center;
-}
-div.review > div {
-    cursor:pointer;
-}
 
-.answered {
-    background-color:#ccffcc;
-    border:1px solid #aaeeaa;
-    margin:2px 0;
-    padding:12px;
-}
-
-.not-answered {
-    background-color:#ffcccc;
-    border:1px solid #eeaaaa;
-    margin:2px 0;
-    padding:12px;
+.cursor-pointer{
+    cursor: pointer;
 }
 
 .result-question{

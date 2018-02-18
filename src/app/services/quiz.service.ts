@@ -1,15 +1,15 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClient, HttpHeaders, HttpResponse } from '@angular/common/http';
 import { Observable } from 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 
 @Injectable()
 export class QuizService {
 
-  constructor(private http: Http) { }
+  constructor(private http: HttpClient) { }
 
   get(url: string) {
-    return this.http.get(url).map(res => res.text().length > 0 ? res.json() : null);
+    return this.http.get(url);
   }
 
   getAll() {
