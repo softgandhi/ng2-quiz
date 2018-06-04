@@ -52,7 +52,6 @@
     margin-bottom:0;
     padding:0;
     width:20px;
-    -webkit-appearance:checkbox;    
 }
 
 @media only screen and (max-width: 480px) {
