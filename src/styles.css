@@ -23,37 +23,6 @@
     padding:6px;
 }
 
-    
-/* Create Quiz Styles */
-.create-quiz .question {
-    text-align:left;
-}
-.create-quiz input[type=text]{
-    border:1px solid #ddd;
-    width:95%;
-}
-.create-quiz .tb-quiz-name{
-    background-color:#ccffcc;
-    text-align:center;
-}
-
-.create-quiz .tb-desc{
-    background-color:#fff;
-}
-
-.create-quiz .options > div{
-    margin-left:20px;
-}
-.create-quiz .options input[type=checkbox]{
-    border: 1px solid #262626;
-    display: inline-block;
-    height:20px;
-    margin-top:10px;
-    margin-bottom:0;
-    padding:0;
-    width:20px;
-}
-
 @media only screen and (max-width: 480px) {
     h1,.h1{
         font-size:22px;

@@ -19,7 +19,7 @@ export class QuizComponent implements OnInit {
     'allowBack': true,
     'allowReview': true,
     'autoMove': false,  // if true, it will move to next question automatically when answered.
-    'duration': 0,  // indicates the time in which quiz needs to be completed. 0 means unlimited.
+    'duration': 20,  // indicates the time (in secs) in which quiz needs to be completed. 0 means unlimited.
     'pageSize': 1,
     'requiredAll': false,  // indicates if you must answer all the questions before submitting.
     'richText': false,
@@ -35,6 +35,11 @@ export class QuizComponent implements OnInit {
     size: 1,
     count: 1
   };
+  timer: any = null;
+  startTime: Date;
+  endTime: Date;
+  ellapsedTime = '00:00';
+  duration = '';
 
   constructor(private quizService: QuizService) { }
 
@@ -48,8 +53,28 @@ export class QuizComponent implements OnInit {
     this.quizService.get(quizName).subscribe(res => {
       this.quiz = new Quiz(res);
       this.pager.count = this.quiz.questions.length;
+      this.startTime = new Date();
+      this.timer = setInterval(() => { this.tick(); }, 1000);
+      this.duration = this.parseTime(this.config.duration);
     });
     this.mode = 'quiz';
+  }
+
+  tick() {
+    const now = new Date();
+    const diff = (now.getTime() - this.startTime.getTime()) / 1000;
+    if (diff >= this.config.duration) {
+      this.onSubmit();
+    }
+    this.ellapsedTime = this.parseTime(diff);
+  }
+
+  parseTime(totalSeconds: number) {
+    let mins: string | number = Math.round(totalSeconds / 60);
+    let secs: string | number = Math.round(totalSeconds % 60);
+    mins = (mins < 10 ? '0' : '') + mins;
+    secs = (secs < 10 ? '0' : '') + secs;
+    return `${mins}:${secs}`;
   }
 
   get filteredQuestions() {
