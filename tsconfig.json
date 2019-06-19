@@ -12,6 +12,14 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "paths": {
+      "core-js/es7/reflect": [
+        "node_modules/core-js/proposals/reflect-metadata"
+      ],
+      "core-js/es6/*": [
+        "node_modules/core-js/es"
+      ]
+    },
     "lib": [
       "es2017",
       "dom"
