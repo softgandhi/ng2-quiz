@@ -5,3 +5,5 @@ A general purpose quiz application developed in angular (version 8) that can be 
 +For detailed documentation, please go to: https://www.codeproject.com/Articles/1167451/Quiz-Application-in-Angular
 
 ### Please raise a pull request for any bug fix or if you have implemented a new feature and feel it is useful.
+
+This branch: ng8-version is the backup for Angular 8 verion.
